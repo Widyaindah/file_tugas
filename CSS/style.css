@@ -1,0 +1,91 @@
+
+
+.my-0{
+	margin: 0;
+}
+
+thead{
+	width: 100%;
+}
+
+/* Class */
+.bg-brown{
+	/* Background Color */
+	background-color: #e79b65;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.burger-img{
+	right: 0;
+	margin-right: 8px;
+	position: absolute;
+	/* Background image */
+	background: url('../Image/burger.jpg') center center;
+	background-size: cover;
+	object-fit: cover;
+	width: 120px;
+	height: 120px;
+}
+
+.profile-img{
+	border-radius: 50%;
+	/* Border */
+	border: solid 4px #8B4513;
+}
+
+div a{
+	color: #8B4513;
+	display: inline-block;
+	padding: 6px 15px;
+	/* Background Color */
+	background-color: #fdc7a0;
+	text-decoration: none;
+	margin: 0 15px;
+	border-radius: 5px;
+	/* Border */
+	border: solid 2px #8B4513;
+	transition: 0.3s ease;
+}
+
+/* Pseudo Element */
+div a:hover{
+	font-weight: 600;
+	color: #8B4513;
+	/* Border */
+	border: solid 2px #853800;
+	transform: scale(1.1);
+
+}
+
+::marker{
+	color: royalblue;
+}
+
+::selection{
+	color: #ff832b;
+}
+
+.paragraf::first-line{
+	background-color: #ff832b;
+}
+
+.paragraf::first-letter{
+	font-size: 40px;
+}
+
+/* ID */
+#footer{
+	color: #000;
+	
+}
+
+/* Format Text */
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Background Color & Image */
+
+
